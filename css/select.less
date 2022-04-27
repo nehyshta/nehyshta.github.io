@@ -1,0 +1,2361 @@
+// main: styles.less
+// @font-face {
+//    font-family: 'Press Start 2P', cursive; /* Имя шрифта */
+//    src: url(../../fonts/PressStart2P-Regular.ttf); /* Путь к файлу со шрифтом */
+//   }
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*{
+  font-family: 'Press Start 2P', cursive;
+
+  font-style: normal;
+  font-weight: normal;
+}
+
+body{
+
+    font-style: normal;
+    font-weight: normal;
+  .bg-light{
+    background-color: rgba(61, 38, 65, 0.38) !important;
+
+  }
+  font-style: normal;
+  font-weight: normal;
+
+
+  font-size: 30px;
+  line-height: 30px;
+
+  color: #FFFFFF;
+  background-color:  #F3ABA5;
+
+  img {
+    display: relative;
+    height: auto;
+    max-width: 100%;
+  }
+  .nav-link{
+    font-family: 'Press Start 2P', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  .carousel-item {
+    height: 100%;
+    min-height: 300px;
+  }
+  .carousel-caption {
+    bottom: 220px;
+  }
+  .carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    font-family: 'Press Start 2P', cursive;
+    font-style: normal;
+    font-weight: normal;
+  }
+  .carousel-caption p {
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+    font-family: 'Press Start 2P', cursive;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0.73em;
+
+    color: #F8DEDE;
+  }
+  .carousel-caption a {
+    text-transform: uppercase;
+    background: #262626;
+    padding: 10px 30px;
+    display: inline-block;
+    color: #fff;
+    margin-top: 15px;
+  }
+  .navbar-nav a {
+
+  }
+
+  .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: #F3DCDC;
+  }
+  .navbar-nav {
+    text-align: center;
+  }
+  .nav-link {
+    padding: .2rem 1rem;
+  }
+  .nav-link.active, .nav-link:focus {
+
+  }
+  .navbar-toggler {
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+    background: #fff;
+  }
+  .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+    border-bottom: 2px solid white;
+  }
+  .home-home-cap{
+    border-bottom:   2px solid rgba(255, 255, 255, 0);
+  }
+  .w-100 {
+    height: 100vh;
+  }
+  @media only screen and (max-width: 767px) {
+    .navbar-nav.ml-auto {
+      background: rgba(22, 20, 20, 0.5);
+    }
+    .navbar-nav a {
+      font-size: 14px;
+      font-weight: normal;
+    }
+  }
+  .container-fluid{
+    background-color:  #F3ABA5;
+
+    .about{
+      .row{
+        .col-img{
+          padding: 0;
+        }
+        .col-6-error{
+          p{
+            padding-top: 30px;
+
+            font-size: 36px;
+            line-height: 36px;
+
+            color: #FFFFFF;
+          }
+
+          .txt-mit{
+            font-size: 30px;
+            line-height: 30px;
+
+          }
+
+          .txt-mit2{
+            font-size: 20px;
+            line-height: 25px;
+
+          }
+        }
+      }
+    }
+  }
+  .wout-m{
+    margin-bottom:  0;
+  }
+  .home-main{
+    transition: 0.3s;
+    color: #fff;
+    border-bottom: 2px solid white;
+  }
+
+
+  .con{
+    background-image: url("../../img/main/пейзаж_фикс 2.png");
+    background-size: cover;
+    background-attachment: fixed;
+
+  }
+  .container{
+    .txt{
+      .row{
+        .col-12-error{
+          p{
+            padding: 88px 0 88px 0;
+
+            font-style: normal;
+            font-weight: normal;
+            font-size: 35px;
+            line-height: 35px;
+            text-align: center;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+
+
+  .main-cont{
+    .container{
+      .row{
+        padding: 15px 0 24px 0;
+        .my-awards-about{
+          p{
+            padding-top: 50px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 36px;
+            line-height: 36px;
+
+            color: #F3ABA5;
+          }
+        }
+
+      }
+      .awards{
+        padding-bottom: 57px;
+      }
+    }
+  }
+
+  .portfio-coontainer{
+
+    background-image: url(../../img/main/peiz_fix_1.png);
+    background-size: cover;
+
+    background-attachment: fixed;
+
+    .container{
+
+      .line{
+        padding-bottom: 120px;
+
+      }
+      .row{
+
+        .col-12-error{
+          .main_port{
+            padding-top: 55px;
+            font-size: 55px;
+            line-height: 55px;
+            color: white;
+
+          }
+          .see-port{
+            font-size: 24px;
+            line-height: 24px;
+
+            color: #FFFFFF;
+            margin: 50px 0 100px 0;
+          }
+        }
+
+      }
+    }
+  }
+
+
+
+
+  .book-photo{
+    background-image: url(../../img/main/book.png);
+    background-size: cover;
+    background-attachment: fixed;
+    .container{
+      padding-top: 60px;
+      padding-bottom: 30px;
+      .row{
+
+
+
+
+        .h-txt{
+          font-size: 30px;
+          line-height: 30px;
+          color: white;
+        }
+        .make-txt{
+          font-size: 21px;
+          line-height: 21px;
+          margin-bottom: 23px;
+          color: white;
+        }
+
+
+
+      }
+      .contact-form{
+        border: 5px solid #FFFFFF;
+        box-sizing: border-box;
+        filter: drop-shadow(6px 5px 6px rgba(214, 127, 174, 0.79));
+        border-radius: 50px;
+        margin-top: 25px;
+        filter: drop-shadow(6px 5px 6px rgba(214, 127, 174, 0.79));
+
+      }
+      .name-top-p{
+        margin-top: 55px;
+
+      }
+      .form-field{
+        padding: 0 0 30px 0;
+
+
+      }
+
+      .input-text{
+
+        display: block;
+        width: 100%;
+        height: 36px;
+        border-width: 0 0 4px 0;
+        border-color:rgba(255, 255, 255, 1);
+        background-color: rgba(238, 4, 233, 0);
+        font-size: 18px;
+        line-height: 26px;
+        padding-left: 23px;
+        color: white;
+        font-size: 20px;
+        line-height: 20px;
+      }
+
+      ::-webkit-input-placeholder {
+        padding:14px;
+
+        color: white;
+      }
+      :-moz-placeholder {
+        padding:14px;
+
+        color: white;
+      }
+      ::-moz-placeholder {
+        padding:14px;
+
+        color: white;
+      }
+      :-ms-input-placeholder {
+        padding:14px;
+
+        color: white;
+      }
+      .comment{
+        padding: 20px 0 16px 22px;
+        color: white;
+        border: 5px solid #FFFFFF;
+        border-radius: 50px;
+        display: block;
+        background-color: rgba(238, 4, 233, 0);
+        width: 100%;
+        height: 100px;
+        font-size: 20px;
+        filter: drop-shadow(6px 5px 6px rgba(214, 127, 174, 0.79));
+        line-height: 20px;
+      }
+
+
+      .submit-btn{
+        margin-top: 23px;
+        display: inline-block;
+        background-color: rgba(35, 201, 131, 0);
+        color: white;
+        border: 5px solid #FFFFFF;
+        border-radius: 50px;
+        padding: 10px 40px;
+        font-size: 36px;
+        line-height: 36px;
+        cursor: pointer;
+        filter: drop-shadow(6px 5px 6px rgba(214, 127, 174, 0.79));
+        transition: 0.3s;
+      }
+
+      .submit-btn:hover{
+
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+        background-color: rgba(239, 239, 240, 0.26);
+
+      }
+      .comment, .input-text:focus{
+        outline: none;
+      }
+    }
+  }
+
+
+  .copyright-container{
+    background-color: #F3ABA5;
+    .row{
+
+    }
+    p{
+      margin: 0;
+      padding-top: 40px;
+      font-size: 25px;
+      line-height: 25px;
+
+      color: #FFFFFF;
+    }
+    .port-unic{
+      padding-top: 20px;
+    }
+
+
+  }
+
+
+
+  .back_to_top {
+    position: fixed;
+    bottom: 80px;
+    right: 40px;
+    z-index: 9999;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 30px;
+    background:rgb(255, 255, 255);
+    color: #F3ABA5;
+    cursor: pointer;
+    border: 1px solid #F3ABA5;
+    border-radius: 100px;
+    display: none;
+    transition: 0.3s;
+  }
+
+  .back_to_top:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    background: #e9ebec;
+  }
+
+  .back_to_top-show {
+    display: block;
+  }
+  // About
+
+
+
+  .main-div-ab{
+
+    background-color: #F3ABA5;
+    .about-name{padding: 99px 0;
+      h5{
+        font-size: 45px;
+        line-height: 45px;
+
+        color: #FFFFFF;
+
+      }
+
+    }
+    hr{
+      height: 2px;
+      background: #FFFFFF;
+      margin: 0;
+    }
+  }
+
+  .about-me{
+    padding-top: 70px;
+    background-color: #F3ABA5;
+    .p-home{
+      font-size: 35px;
+      line-height: 35px;
+
+      color: #FFFFFF;
+    }
+    .p-about{
+      font-size: 35px;
+      line-height: 35px;
+
+      color: #F3DCDC
+    }
+
+
+    .txt-about-me{
+      font-size: 60px;
+      line-height: 60px;
+      text-align: center;
+
+      color: #FFFFFF;
+    }
+
+    .about-me-row{
+      padding: 120px 0 120px 0 ;
+    }
+  }
+  .name-p{
+    font-size: 18px;
+    line-height: 18px;
+
+    color: #FFFFFF;
+  }
+  .p-about-text{
+    font-size: 14px;
+    line-height: 25px;
+
+    color: #FFFFFF;
+  }
+
+  .see-port-btn{
+    .submit-btn{
+
+      display: inline-block;
+      background-color: rgba(35, 201, 131, 0);
+      color: white;
+      border: 5px solid #FFFFFF;
+      border-radius: 50px;
+      padding: 10px 40px;
+
+      font-size: 24px;
+      line-height: 24px;
+      text-align: center;
+      cursor: pointer;
+      filter: drop-shadow(6px 5px 6px rgba(214, 127, 174, 0.79));
+      transition: 0.3s;
+    }
+
+    .submit-btn:hover{
+
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2);
+      background-color: rgba(239, 239, 240, 0.26);
+
+    }
+  }
+  .btn-see-port{
+
+    padding: 50px 0 50px 0;
+  }
+
+  .comment-cont{
+    padding-top: 170px;
+    background-color: #F3ABA5;
+    .txt-response{
+      padding-top: 50px;
+      font-size: 25px;
+      line-height: 25px;
+      text-align: center;
+
+      color: #FFFFFF;
+    }
+
+    .txt-name{
+      font-size: 25px;
+      margin-top: 30px;
+      line-height: 25px;
+      text-align: center;
+
+      color: #FFFFFF;
+    }
+  }
+
+  .content-equip{
+    padding-top: 100px;
+    background-color: #F3ABA5;
+    .container{
+      .txt-disc-equip{
+        font-size: 40px;
+        line-height: 40px;
+        text-align: center;
+
+        color: #FFFFFF;
+      }
+
+      .img-port-yashiro{
+        margin-top: 70px;
+      }
+
+
+      .about-btn{
+        margin-top: 100px;
+        padding-bottom: 90px;
+      }
+    }
+  }
+  // submit about
+  .book-about-photo{
+    background-image: url("../../img/about/фикс_фон 1.png");
+    background-size: cover;
+    background-attachment: fixed;
+    .about-container{
+      padding-top: 60px;
+      padding-bottom: 30px;
+      background-color: white;
+      .row{
+
+
+
+        .h-txt{
+          font-size: 35px;
+          line-height: 35px;
+          color: #F3ABA5;
+        }
+
+
+      }
+      .contact-form{
+
+        box-sizing: border-box;
+
+
+        margin-top: 25px;
+
+
+      }
+      .name-top-p{
+        margin-top: 55px;
+
+      }
+      .form-field{
+        padding: 0 0 30px 0;
+
+
+      }
+
+      .input-text{
+
+        display: block;
+        width: 100%;
+        height: 36px;
+        border-width: 0 0 4px 0;
+        border-color:#F3ABA5;
+        background-color: rgba(238, 4, 233, 0);
+        font-size: 18px;
+        line-height: 26px;
+        padding-left: 23px;
+        color: #F3ABA5;
+        font-size: 20px;
+        line-height: 20px;
+      }
+
+      ::-webkit-input-placeholder {
+
+
+        color: #F3ABA5;
+      }
+      :-moz-placeholder {
+        padding:14px;
+
+        color: #F3ABA5;
+      }
+      ::-moz-placeholder {
+        padding:14px;
+
+        color: #F3ABA5;
+      }
+      :-ms-input-placeholder {
+        padding:14px;
+
+        color: #F3ABA5;
+      }
+      .comment{
+        padding: 20px 0 50px 22px;
+        color: #F3ABA5;
+        border: 5px solid #F3ABA5;
+        border-radius: 50px;
+        display: block;
+        background-color: rgba(238, 4, 233, 0);
+        width: 100%;
+        height: 100px;
+        font-size: 20px;
+
+        line-height: 20px;
+      }
+
+
+      .submit-btn{
+        margin-top: 70px;
+        margin-bottom: 40px;
+        display: inline-block;
+        background-color: rgba(35, 201, 131, 0);
+        color: #F3ABA5;
+        border: 5px solid #F3ABA5;
+        border-radius: 50px;
+        padding: 10px 40px;
+        font-size: 36px;
+        line-height: 36px;
+        cursor: pointer;
+
+        transition: 0.3s;
+      }
+
+      .submit-btn:hover{
+
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+        background-color: rgba(239, 239, 240, 0.26);
+
+      }
+      .comment, .input-text:focus{
+        outline: none;
+      }
+    }
+  }
+
+
+  // PORTFOLIO
+  .portfolio-slider{
+    margin-top: 100px;
+
+    .carousel-control-prev-icon {
+      background-image: url("../../img/portfolio/arrow_left.png") ;
+    }
+    .carousel-control-next-icon{
+      background-image: url("../../img/portfolio/arrow_right.png");
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+      display: inline-block;
+      width: 83px;
+      height: 83px;
+      background-size: 100% 100%;
+
+    }
+    .carousel-control-prev{
+      transition: 0.3s;
+    }
+    .carousel-control-prev:hover{
+      -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1);
+      filter: alpha(opacity=80) black;
+    }
+
+    .carousel-control-next{
+      transition: 0.3s;
+    }
+    .carousel-control-next:hover{
+      -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1);
+      filter: alpha(opacity=80) black;
+    }
+  }
+
+
+
+  // gallery
+
+
+  .portfolio-gallery{
+    background-color:  #F3ABA5;
+    .container{
+      #content{
+        .port-gall-txt{
+          font-size: 20px;
+          line-height: 20px;
+          text-align: center;
+          color: white;
+          padding: 115px 0 105px 0;
+        }
+
+        .port-row-two{
+          padding-top: 130px;
+          padding-bottom: 170px;
+        }
+      }
+    }
+  }
+
+
+  .port-white-cont{
+    background-color: white;
+    p{
+      color: #F3ABA5;
+    }
+  }
+  .gallery-photo{
+    transition: 0.3s;
+  }
+  .gallery-photo:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    filter: sepia(150%);
+  }
+
+
+
+
+  // Contact
+  .contact-me-sec{
+    background-color: #F3ABA5;
+  }
+  .contact-me-col{
+    padding-top: 20px;
+    background: #FFFFFF;
+    box-shadow: -14px 32px 28px rgba(81, 97, 139, 0.15);
+    border-radius: 28px;
+    .contact-contact-txt{
+      font-size: 50px;
+      line-height: 50px;
+
+      color: #F3ABA5;
+    }
+
+    .contact-phone{
+      font-size: 18px;
+      line-height: 18px;
+
+      color: #F3ABA5;
+    }
+
+    .contact-email{
+      font-size: 18px;
+      line-height: 18px;
+      color: #F3ABA5;
+    }
+
+    .contact-txt{
+      font-size: 18px;
+      line-height: 18px;
+      text-align: center;
+
+      color: #F3ABA5;
+    }
+  }
+  .contact-me-photo{
+
+  }
+
+  .contact-form-cont{
+    .contact-form{
+
+      box-sizing: border-box;
+
+
+      margin-top: 25px;
+
+
+    }
+    .name-top-p{
+      margin-top: 55px;
+
+    }
+    .form-field{
+      padding: 0 0 30px 0;
+
+
+    }
+
+    .input-text{
+
+      display: block;
+      width: 100%;
+      height: 36px;
+      border-width: 0 0 4px 0;
+      border-color:#F3ABA5;
+      background-color: rgba(238, 4, 233, 0);
+      font-size: 18px;
+      line-height: 26px;
+      padding-left: 23px;
+      color: #F3ABA5;
+      font-size: 20px;
+      line-height: 20px;
+    }
+
+    ::-webkit-input-placeholder {
+
+
+      color: #F3ABA5;
+    }
+    :-moz-placeholder {
+      padding:14px;
+
+      color: #F3ABA5;
+    }
+    ::-moz-placeholder {
+      padding:14px;
+
+      color: #F3ABA5;
+    }
+    :-ms-input-placeholder {
+      padding:14px;
+
+      color: #F3ABA5;
+    }
+    .comment{
+      padding: 20px 0 50px 22px;
+      color: #F3ABA5;
+      border: 5px solid #F3ABA5;
+      border-radius: 50px;
+      display: block;
+      background-color: rgba(238, 4, 233, 0);
+      width: 100%;
+      height: 100px;
+      font-size: 20px;
+
+      line-height: 20px;
+    }
+
+
+    .submit-btn{
+      margin-top: 70px;
+      margin-bottom: 40px;
+      display: inline-block;
+      background-color: rgba(35, 201, 131, 0);
+      color: #F3ABA5;
+      border: 5px solid #F3ABA5;
+      border-radius: 50px;
+      padding: 10px 25px;
+      font-size: 25px;
+      line-height: 25px;
+      cursor: pointer;
+
+      transition: 0.3s;
+    }
+
+    .submit-btn:hover{
+
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2);
+      background-color: rgba(239, 239, 240, 0.26);
+
+    }
+    .comment, .input-text:focus{
+      outline: none;
+    }
+  }
+
+  .contact-me-photo{
+
+    background: linear-gradient(0deg, rgba(244, 172, 166, 0.08), rgba(244, 172, 166, 0.04)), url("../../img/contact/contact 1.png");
+    border-radius: 28px;
+    box-shadow: -14px 32px 28px rgba(81, 97, 139, 0.24);
+  }
+
+
+  .contact-me-sec{
+    padding: 100px 0;
+  }
+
+  //BLOG
+  .blog-container{
+
+    background-color: #F3ABA5;
+    padding-top: 100px;
+    .blog-content{
+
+      margin-top: -100px;
+      position: relative;
+      color: #F3ABA5;
+      border-radius: 20px;
+      background-color: white;
+
+      .head-txt{
+        padding-top: 35px;
+        padding-bottom: 23px;
+        font-size: 21px;
+        line-height: 21px;
+
+      }
+
+      .who-post-txt{
+        padding-bottom: 40px;
+        font-size: 13px;
+        line-height: 13px;
+      }
+      .entry-txt{
+        font-size: 16px;
+        line-height: 25px;
+      }
+    }
+
+    .more-comment-blog{
+      margin-top: 20px;
+      padding-bottom: 60px;
+    }
+
+    .comment-blog{
+      cursor: pointer;
+
+      transition: .3s;
+    }
+
+    .comment-blog:hover{
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2);
+    }
+    .more-btn-blog{
+      background: #FFFFFF;
+      border: 2px solid #F3ABA5;
+      box-sizing: border-box;
+      border-radius: 20px;
+      color: #F3ABA5;
+      padding: 10px 40px;
+      font-size: 24px;
+      line-height: 24px;
+      text-align: center;
+      cursor: pointer;
+
+      transition: .3s;
+    }
+
+    .more-btn-blog:hover{
+      color: white;
+      background-color: #F3ABA5;
+    }
+    .cont-marg{
+      padding-bottom: 130px;
+    }
+
+  }
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("../../img/adaptation/burger.svg") !important;
+}
+.navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0.77);
+  padding: 5px;
+  background: rgba(255, 255, 255, 0.52) ;
+}
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 41px !important;
+  height: 41px !important;
+  vertical-align: middle;
+  content: "";
+  background: no-repeat center center;
+  background-size: 100% 100%;
+}
+.navbar-toggler {
+
+  border: 1px solid transparent;
+  border-radius: 11px !important;
+}
+// media
+
+
+
+@media (max-width: 992px) {
+  body{
+    .bg-light{
+      background-color: rgba(61, 38, 65, 0) !important;
+    }
+    .carousel-caption h5{
+      font-size: 35px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-top: 25px;
+      font-family: 'Press Start 2P', cursive;
+      font-style: normal;
+      font-weight: normal;
+    }
+    .container-fluid .about .row .col-6-error p {
+      padding-top: 20px;
+      font-size: 25px;
+      line-height: 20px;
+    }
+    .container-fluid .about .row .col-6-error .txt-mit {
+      font-size: 21px;
+      line-height: 10px;
+    }
+    .container-fluid .about .row .col-6-error .img-bear-adaptation {
+      padding-top: 0;
+      font-size: 25px;
+      line-height: 15px;
+    }
+
+    .container-fluid .about .row .col-6-error .txt-mit2 {
+      font-size: 17px;
+      line-height: 20px;
+    }
+
+    .container .txt .row .col-12-error p {
+      padding: 60px 0 45px 0;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 22px;
+      line-height: 35px;
+      text-align: center;
+      color: white;
+    }
+    .main-cont .container .row .my-awards-about p {
+      padding-top: 35px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 33px;
+      line-height: 30px;
+      color: #F3ABA5;
+    }
+
+    .portfio-coontainer .container .row .col-12-error .main_port {
+      padding-top: 50px;
+      font-size: 40px;
+      line-height: 40px;
+      color: white;
+    }
+
+    .portfio-coontainer .container .row .col-12-error .see-port {
+      font-size: 24px;
+      line-height: 34px;
+      color: #FFFFFF;
+      margin: 28px 0 70px 0;
+    }
+
+
+    .copyright-container p {
+      margin: 0;
+      padding-top: 47px;
+      font-size: 19px;
+      line-height: 25px;
+      color: #FFFFFF;
+    }
+
+    .w-100 {
+      height: 60vh;
+    }
+
+    .navbar-collapse {
+      background-color: rgba(46, 46, 46, 0.56);
+    }
+
+
+    .book-photo {
+      background-position: center;
+
+    }
+
+    .main-div-ab .about-name h5 {
+      font-size: 40px;
+    }
+
+    .about-me .p-home {
+      font-size: 30px;
+    }
+
+    .about-me .p-about {
+      font-size: 30px;
+    }
+    .about-me .txt-about-me {
+      font-size: 40px;
+      line-height: 85px;
+
+    }
+    .about-me .about-me-row {
+      padding: 80px 0 90px 0;
+    }
+
+    .name-p {
+      font-size: 15px;
+    }
+
+    .p-about-text {
+      font-size: 12px;
+      line-height: 21px;
+    }
+    .btn-see-port {
+      padding: 40px 0 45px 0;
+    }
+
+    .for-padding-awards{
+      padding-top: 60px;
+    }
+
+    .comment-cont .txt-response {
+      padding-top: 35px;
+      font-size: 17px;
+    }
+    .comment-cont .txt-name {
+      font-size: 20px;
+      margin-top: 20px;
+    }
+
+    .content-equip .container .txt-disc-equip {
+      font-size: 27px;
+    }
+
+    .content-equip .container .about-btn {
+      margin-top: 80px;
+    }
+
+    .book-about-photo .about-container .row .h-txt {
+      font-size: 22px;
+    }
+
+    .book-about-photo .about-container .submit-btn {
+      margin-top: 50px;
+    }
+
+    .about-me {
+      padding-top: 50px;
+
+    }
+
+    .blog-container {
+
+      padding-top: 80px;
+    }
+    .blog-container .more-btn-blog {
+
+      padding: 20px 40px;
+    }
+
+
+
+    .copyright-container .blog-footer-txt {
+      margin: 0;
+      padding-top: 32px;
+      font-size: 21px;
+      line-height: 58px;
+      color: #F3ABA5;
+    }
+
+    .about-me .p-home-port, .about-me  .p-about-port{
+      font-size: 21px;
+    }
+
+    .portfolio-slider {
+      margin-top: 80px;
+    }
+
+    .test-w-75 {
+      height: 75vh;
+    }
+
+    .body .portfolio-gallery .container #content .port-gall-txt {
+      font-size: 20px;
+      line-height: 26px;
+      padding: 70px 0 90px 0;
+    }
+
+    .cont-tablet-line{
+      padding-top: 60px;
+    }
+
+    .portfolio-gallery .container #content .port-gall-txt {
+      font-size: 20px;
+      line-height: 20px;
+      text-align: center;
+      color: white;
+      padding: 100px 0 80px 0;
+    }
+
+    .portfolio-gallery .container #content .port-row-two {
+      padding-top: 110px;
+      padding-bottom: 140px;
+    }
+
+    .comment-cont {
+      padding-top: 140px;
+      background-color: #F3ABA5;
+    }
+
+    .contact-me-col .contact-contact-txt {
+      font-size: 38px;
+    }
+
+    .contact-me-col .contact-email {
+      font-size: 15px;
+    }
+
+    .contact-me-col .contact-phone {
+      font-size: 15px;
+    }
+
+    .contact-me-col .contact-txt {
+      font-size: 16px;
+      line-height: 21px;
+    }
+
+    .contact-form-cont .contact-form {
+      margin-top: 0px;
+    }
+
+    .contact-form-cont .submit-btn {
+      margin-top: 50px;
+      margin-bottom: 40px;
+      padding: 13px 21px;
+      font-size: 18px;
+      line-height: 19px;
+    }
+    .book-photo .container .comment {
+      padding: 13px 0 0px 0px;
+
+    }
+
+    .contact-form-cont .input-text {
+      display: block;
+      width: 100%;
+      height: 36px;
+      font-size: 18px;
+      padding-left: 23px;
+      color: #F3ABA5;
+      line-height: 20px;
+    }
+  }
+}
+
+// 768px
+
+@media (max-width: 768px) {
+  body{
+
+    .carousel-caption h5{
+      font-size: 22px;
+    }
+    .carousel-caption p {
+      font-size: 15px;
+    }
+ .w-100 {
+        height: 50vh;
+    }
+
+    .carousel-caption {
+        bottom: 212px;
+    }
+
+    .navbar-light .navbar-toggler {
+      padding: 2px 4px;
+    }
+
+    .container-fluid .about .row .col-6-error p {
+      padding-top: 21px;
+      font-size: 20px;
+      line-height: 0px;
+    }
+
+    .container-fluid .about .row .col-6-error .txt-mit {
+      font-size: 13px;
+      line-height: 0px;
+    }
+
+    .container-fluid .about .row .col-6-error .img-bear-adaptation {
+      padding-top: 0px;
+      font-size: 0px;
+      line-height: 0px;
+      margin-bottom: 0;
+    }
+
+    .container-fluid .about .row .col-6-error .txt-mit2 {
+      font-size: 11px;
+      line-height: 21px;
+    }
+
+    .container-fluid .about .row .col-6-error p  {
+      padding-top: 18px;
+      font-size: 20px;
+      line-height: 0;
+    }
+
+    .container .txt .row .col-12-error p {
+      padding: 40px 0 40px 0;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 19px;
+      line-height: 31px;
+      text-align: center;
+      color: white;
+    }
+
+    .main-cont .container .row .my-awards-about p {
+      padding-top: 35px;
+      font-size: 30px;
+      line-height: 20px;
+
+    }
+
+    .portfio-coontainer .container .row .col-12-error .see-port {
+      font-size: 20px;
+
+    }
+
+    .portfio-coontainer .container .row .col-12-error .main_port {
+      font-size: 37px;
+      line-height: 40px;
+    }
+
+    .book-photo .container .row .h-txt {
+      font-size: 23px;
+      line-height: 30px;
+      color: white;
+    }
+
+    .book-photo .container .row .make-txt {
+      font-size: 16px;
+      line-height: 21px;
+      margin-bottom: 17px;
+      color: white;
+    }
+
+    .book-photo .container .submit-btn {
+      margin-top: 45px;
+      color: white;
+      border-radius: 50px;
+      padding: 10px 40px;
+      font-size: 28px;
+      line-height: 30px;
+    }
+
+    .copyright-container p {
+      margin: 0;
+      padding-top: 21px;
+      font-size: 17px;
+      line-height: 23px;
+      color: #FFFFFF;
+    }
+    .copyright-container .port-unic {
+      padding-top: 16px;
+    }
+    .back_to_top {
+
+      width: 70px;
+      height: 70px;
+
+    }
+
+
+    ::-webkit-input-placeholder {
+      padding:10px;
+
+      color: white;
+    }
+    :-moz-placeholder {
+      padding:10px;
+
+      color: white;
+    }
+    ::-moz-placeholder {
+      padding:10px;
+
+      color: white;
+    }
+    :-ms-input-placeholder {
+      padding:10px;
+
+      color: white;
+    }
+
+    .book-photo .container .comment {
+      padding: 13px 0 0px 0px;
+
+    }
+
+    .main-div-ab .about-name h5 {
+      font-size: 30px;
+      line-height: 48px;
+    }
+
+
+    .about-me .txt-about-me {
+      font-size: 31px;
+      line-height: 85px;
+
+    }
+
+    .name-p {
+      font-size: 15px;
+      padding-top: 30px;
+    }
+
+    .p-about-text {
+      font-size: 11px;
+      line-height: 19px;
+      padding: 0px 15% 0px 15%;
+    }
+
+    .see-port-btn .submit-btn {
+
+
+      padding: 3px 21px;
+      font-size: 14px;
+      line-height: 18px;
+
+    }
+
+    .main-cont .container .row .my-awards-about p {
+      padding-top: 35px;
+      font-size: 28px;
+      line-height: 15px;
+    }
+
+    .comment-cont .txt-response {
+      padding-top: 25px;
+      font-size: 13px;
+    }
+
+    .comment-cont .txt-name {
+      font-size: 18px;
+      margin-top: 17px;
+    }
+
+    .comment-cont {
+      padding-top: 115px;
+    }
+
+    .content-equip .container .txt-disc-equip {
+      font-size: 19px;
+    }
+
+    .content-equip {
+      padding-top: 80px;
+
+    }
+
+    .content-equip .container .img-port-yashiro {
+      margin-top: 60px;
+    }
+
+    .content-equip .container .about-btn {
+      margin-top: 75px;
+      padding-bottom: 75px;
+    }
+
+    .book-about-photo .about-container .row .h-txt {
+      font-size: 18px;
+    }
+
+    .book-about-photo .about-container .comment {
+      padding: 19px 0 14px 22px;
+      color: #F3ABA5;
+      border: 5px solid #F3ABA5;
+      border-radius: 50px;
+      display: block;
+      background-color: rgba(238,4,233,0);
+      width: 100%;
+      height: 100px;
+      font-size: 20px;
+      line-height: 20px;
+    }
+
+    .book-about-photo .about-container .submit-btn {
+      margin-top: 45px;
+
+      border-radius: 50px;
+      padding: 10px 40px;
+      font-size: 28px;
+      line-height: 30px;
+    }
+
+    .blog-container .blog-content .head-txt {
+      padding-top: 35px;
+      padding-bottom: 0px;
+      font-size: 17px;
+      line-height: 21px;
+    }
+
+    .blog-container .blog-content .who-post-txt {
+      padding-bottom: 24px;
+      font-size: 8px;
+      line-height: 8px;
+    }
+
+    .blog-container .blog-content .entry-txt {
+      font-size: 11px;
+      line-height: 25px;
+    }
+
+    .blog-container .more-btn-blog {
+      padding: 11px 24px;
+    }
+
+    .blog-container .comment-blog {
+      width: 70%;
+    }
+
+    .copyright-container .blog-footer-txt {
+      margin: 0;
+      padding-top: 21px;
+      font-size: 17px;
+      line-height: 23px;
+      color: #F3ABA5;
+    }
+
+    .portfolio-slider {
+      margin-top: 65px;
+    }
+
+    .portfolio-slider .carousel-control-next-icon, .portfolio-slider .carousel-control-prev-icon {
+      width: 70px;
+      height: 70px;
+    }
+
+    .portfolio-gallery .container #content .port-gall-txt {
+      font-size: 15px;
+      padding: 75px 0 70px 0;
+    }
+
+    .portfolio-gallery .container #content .port-row-two {
+      padding-top: 110px;
+      padding-bottom: 120px;
+    }
+
+    .contact-me-photo {
+      background-position: center;
+      background-size: cover;
+    }
+
+    .contact-me-col .contact-contact-txt {
+      font-size: 30px;
+    }
+
+    .contact-me-col .contact-phone {
+      font-size: 12px;
+    }
+
+    .contact-me-col .contact-email {
+      font-size: 12px;
+    }
+
+    .contact-me-col .contact-txt {
+      font-size: 12px;
+      line-height: 20px;
+    }
+
+    .contact-form-cont .input-text {
+
+      height: 23px;
+      font-size: 18px;
+
+      font-size: 13px;
+      line-height: 20px;
+    }
+
+    .contact-form-cont .name-top-p {
+      margin-top: 40px;
+    }
+
+    .contact-form-cont .comment {
+      padding: 20px 0 14px 22px;
+      width: 100%;
+      height: 87px;
+      font-size: 18px;
+      line-height: 20px;
+    }
+
+    .contact-form-cont .submit-btn {
+      padding: 6px 15px;
+      font-size: 14px;
+    }
+  }
+}
+
+// 576
+
+@media (max-width: 576px) {
+  body{
+    .w-100 {
+      height: 53vh;
+    }
+    .container-fluid .about .row .col-6-error p {
+      padding-top: 16px;
+      font-size: 12px;
+      line-height: 0;
+    }
+
+    .container-fluid .about .row .col-6-error .txt-mit {
+      font-size: 11px;
+      line-height: 0;
+    }
+
+    .container-fluid .about .row .col-6-error .txt-mit2 {
+      font-size: 8px;
+      line-height: 17px;
+    }
+
+    .navbar-light .navbar-toggler {
+      padding: 0px 0px;
+    }
+    .navbar-toggler-icon {
+      display: inline-block;
+      width: 1.5em;
+      height: 1.5em;
+      vertical-align: middle;
+      content: "";
+      background: no-repeat center center;
+      background-size: 80% 80%;
+    }
+
+    .container .txt .row .col-12-error p {
+      padding: 40px 0 35px 0;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 28px;
+      text-align: center;
+      color: white;
+    }
+
+    .main-cont .container .row .my-awards-about p {
+      font-size: 24px;
+    }
+
+    .award-img{
+      width: 110px;
+    }
+
+    .back_to_top {
+      width: 60px;
+      height: 60px;
+    }
+
+    .portfio-coontainer .container .row .col-12-error .main_port {
+      font-size: 30px;
+      line-height: 40px;
+    }
+
+    .portfio-coontainer .container .row .col-12-error .see-port {
+      font-size: 16px;
+    }
+
+    .book-photo .container .input-text {
+      display: block;
+      width: 100%;
+      height: 36px;
+      border-width: 0 0 4px 0;
+      border-color: #fff;
+      background-color: rgba(238,4,233,0);
+      font-size: 18px;
+      line-height: 26px;
+      padding-left: 23px;
+      color: white;
+      font-size: 16px;
+      line-height: 20px;
+    }
+
+    .book-photo .container .comment {
+      padding: 9px 0 4px 12px;
+      color: white;
+      border: 5px solid #FFFFFF;
+      border-radius: 50px;
+      display: block;
+      background-color: rgba(238,4,233,0);
+      width: 100%;
+      height: 75px;
+      font-size: 17px;
+      filter: drop-shadow(6px 5px 6px rgba(214,127,174,0.79));
+      line-height: 20px;
+    }
+
+    .book-photo .container .submit-btn {
+      margin-top: 41px;
+
+      padding: 7px 34px;
+      font-size: 18px;
+      line-height: 22px;
+    }
+
+    .book-photo .container .submit-btn {
+      border: 4px solid #FFFFFF;
+    }
+
+    .copyright-container p {
+      margin: 0;
+      padding-top: 35px;
+      font-size: 11px;
+      line-height: 23px;
+      color: #FFFFFF;
+    }
+
+    .copyright-container .port-unic {
+      padding-top: 12px;
+    }
+
+    .carousel-caption h5 {
+      font-size: 15px;
+    }
+
+    .carousel-caption p {
+      font-size: 10px;
+    }
+
+    .navbar-nav.ml-auto {
+      background: rgba(154, 106, 231, 0);
+    }
+
+    .main-div-ab .about-name h5 {
+      font-size: 19px;
+      line-height: 48px;
+    }
+
+    .about-me .p-home {
+      font-size: 20px;
+    }
+
+    .about-me .p-about {
+      font-size: 20px;
+    }
+
+    .about-me .txt-about-me {
+      font-size: 23px;
+      line-height: 55px;
+    }
+
+    .about-me .about-me-row {
+      padding: 60px 0 60px 0;
+    }
+
+    .p-about-text {
+      font-size: 11px;
+      line-height: 19px;
+      padding: 0 7% 0 7%;
+    }
+
+    .see-port-btn .submit-btn {
+      padding: 5px 23px;
+      font-size: 11px;
+      line-height: 13px;
+    }
+    .main-cont .container .row .my-awards-about p {
+      font-size: 23px;
+    }
+
+    .comment-cont {
+      padding-top: 90px;
+    }
+
+    .comment-cont .txt-response {
+      padding-top: 25px;
+      font-size: 9px;
+      line-height: 16px;
+    }
+
+    .comment-cont .txt-name {
+      font-size: 14px;
+      margin-top: 17px;
+    }
+
+    .content-equip .container .txt-disc-equip {
+      font-size: 15px;
+      line-height: 25px;
+    }
+
+    .content-equip .container .img-port-yashiro {
+      margin-top: 55px;
+    }
+
+    .book-about-photo .about-container .row .h-txt {
+      font-size: 14px;
+    }
+
+    .book-about-photo .about-container {
+      padding-top: 40px;
+      padding-bottom: 30px;
+      background-color: white;
+    }
+
+    .book-about-photo .about-container .input-text {
+      font-size: 17px;
+    }
+
+    .book-about-photo .about-container .name-top-p {
+      margin-top: 20px;
+    }
+
+    .book-about-photo .about-container .comment {
+      padding: 10px 0 15px 22px;
+      height: 84px;
+      font-size: 17px;
+      line-height: 20px;
+    }
+
+    .book-about-photo .about-container .submit-btn {
+      margin-top: 45px;
+      border-radius: 50px;
+      padding: 10px 35px;
+      font-size: 19px;
+      line-height: 30px;
+    }
+
+    .blog-container .blog-content .head-txt {
+      padding-top: 35px;
+      padding-bottom: 0;
+      font-size: 12px;
+      line-height: 20px;
+    }
+
+    .blog-container .blog-content .who-post-txt {
+      padding-bottom: 16px;
+      font-size: 10px;
+      line-height: 13px;
+    }
+
+    .blog-container .blog-content .entry-txt {
+      font-size: 8px;
+      line-height: 22px;
+    }
+
+    .blog-container .comment-blog {
+      width: 89%;
+    }
+
+    .blog-container .more-btn-blog {
+      padding: 5px 10px;
+    }
+
+    .blog-container .more-btn-blog {
+      padding: 6px 16px;
+      font-size: 15px;
+      line-height: 24px;
+    }
+
+    .blog-container .more-comment-blog {
+      margin-top: 20px;
+      padding-bottom: 45px;
+    }
+
+    .copyright-container .blog-footer-txt {
+      margin: 0;
+      padding-top: 35px;
+      font-size: 11px;
+      line-height: 23px;
+
+    }
+
+    .portfolio-slider .carousel-control-next-icon, .portfolio-slider .carousel-control-prev-icon {
+      width: 55px;
+      height: 55px;
+    }
+
+    .about-me .p-home-port,  .about-me .p-about-port {
+      font-size: 15px;
+    }
+
+    .portfolio-gallery .container #content .port-gall-txt {
+      font-size: 11px;
+      padding: 60px 0 60px 0;
+    }
+
+    .contact-me-col .contact-contact-txt {
+      font-size: 20px;
+    }
+
+    .contact-me-col .contact-phone {
+      font-size: 9px;
+    }
+
+    .contact-me-col .contact-email {
+      font-size: 8px;
+    }
+
+    .contact-me-col .contact-txt {
+      font-size: 9px;
+      line-height: 17px;
+    }
+
+    .contact-form-cont .form-field {
+      padding: 0 0 14px 0;
+  }
+
+    .contact-form-cont .input-text {
+      padding-left: 10px;
+    }
+
+    .contact-form-cont .input-text {
+      height: 23px;
+      font-size: 18px;
+      font-size: 10px;
+      line-height: 20px;
+    }
+
+    .contact-form-cont .input-text {
+      border-width: 0 0 3px 0;
+    }
+
+    .contact-form-cont .comment {
+      padding: 20px 0 0px 7px;
+      width: 100%;
+      height: 65px;
+      font-size: 15px;
+      line-height: 0px;
+    }
+
+    .contact-form-cont .comment {
+      border: 3px solid #F3ABA5;
+    }
+
+  .contact-form-cont .name-top-p {
+        margin-top: 15px;
+    }
+
+
+    .contact-form-cont .submit-btn {
+        margin-top: 25px;
+        margin-bottom: 40px;
+        padding: 2px 8px;
+        font-size: 8px;
+        line-height: 19px;
+    }
+
+    .contact-form-cont .submit-btn {
+        border: 3px solid #F3ABA5;
+    }
+
+  }
+}
+
+
+
+@media (max-width: 575px){
+body{
+  .carousel-caption h5 {
+      font-size: 8px;
+  }
+.carousel-caption p {
+      font-size: 7px;
+  }
+
+  .w-100 {
+      height: 45vh;
+  }
+
+  .container-fluid .about .row .col-6-error .txt-mit {
+      font-size: 9px;
+      line-height: 1;
+  }
+
+
+  p {
+      margin-top: 0;
+      margin-bottom: -2px;
+  }
+
+
+  .container-fluid .about .row .col-6-error .txt-mit2 {
+      font-size: 5px;
+      line-height: 10px;
+  }
+
+ .container-fluid .about .row .col-6-error p {
+      padding-top: 11px;
+      font-size: 12px;
+      line-height: 0;
+  }
+
+.container-fluid .about .row .col-6-error .img-bear-adaptation {
+      padding-top: 12px;
+      font-size: 0;
+      line-height: 0;
+      margin-bottom: 0;
+  }
+
+  .container .txt .row .col-12-error p {
+      padding: 40px 0 35px 0;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 9px;
+      line-height: 19px;
+      text-align: center;
+      color: white;
+  }
+
+  .portfio-coontainer .container .row .col-12-error .main_port {
+      font-size: 25px;
+      line-height: 40px;
+  }
+
+  .portfio-coontainer .container .row .col-12-error .see-port {
+      font-size: 10px;
+      line-height: 2;
+  }
+
+.line-adap{
+  padding-bottom: 50px;
+}
+
+ .back_to_top {
+    width: 40px;
+    height: 40px;
+}
+
+ .portfio-coontainer .container .line {
+    padding-bottom: 50px;
+}
+
+.carousel-caption {
+    bottom: 139px;
+}
+
+.book-photo .container {
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.book-photo .container .row .h-txt {
+    font-size: 14px;
+    line-height: 30px;
+    color: white;
+}
+
+.book-photo .container .submit-btn {
+    margin-top: 41px;
+    padding: 7px 22px;
+    font-size: 13px;
+    line-height: 22px;
+}
+
+.copyright-container p {
+    margin: 0;
+    padding-top: 16px;
+    font-size: 7px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.carousel.pointer-event {
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    height: 34vh;
+}
+
+ .w-100 {
+    height: 34vh;
+}
+
+ .book-photo .container .input-text {
+    display: block;
+    width: 100%;
+    height: 36px;
+    border-width: 0 0 4px 0;
+    border-color: #fff;
+    background-color: rgba(238,4,233,0);
+    font-size: 18px;
+    line-height: 26px;
+    padding-left: 5px;
+    color: white;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.book-photo .container .comment {
+    font-size: 13px;
+}
+
+ .cake_adaptation {
+  height: 40px;
+}
+
+ .main-div-ab .about-name h5 {
+    font-size: 13px;
+    line-height: 48px;
+}
+
+.about-me .p-home {
+    font-size: 15px;
+}
+
+.about-me .p-about {
+    font-size: 15px;
+}
+.img_adapt{
+max-width: none;
+width: 15px;
+    height: 20px;
+}
+
+ .about-me .txt-about-me {
+    font-size: 15px;
+    line-height: 32px;
+}
+ .p-about-text {
+    font-size: 9px;
+    line-height: 17px;
+    padding: 10px 7% 0 7%;
+}
+
+.name-p {
+    font-size: 11px;
+    padding-top: 25px;
+}
+
+.see-port-btn .submit-btn {
+    padding: 5px 12px;
+    font-size: 7px;
+    line-height: 7px;
+}
+ .see-port-btn .submit-btn {
+
+    border: 3px solid #FFFFFF;
+
+}
+
+.padding-adapt-awards{
+  padding: 40px;
+}
+
+.navbar {
+
+    padding: 13px 0 0 13px;
+}
+
+.adapt-cont{
+  max-width: 375px !important;
+}
+
+.comment-cont .txt-response {
+    padding-top: 15px;
+    font-size: 7px;
+    line-height: 10px;
+}
+
+
+ .comment-cont .txt-name {
+    font-size: 9px;
+    margin-top: 13px;
+    line-height: 14px;
+}
+.content-equip .container .txt-disc-equip {
+    font-size: 12px;
+}
+
+.content-equip {
+    padding-top: 60px;
+}
+
+.content-equip .container .img-port-yashiro {
+    margin-top: 40px;
+}
+
+.content-equip .container .about-btn {
+    margin-top: 35px;
+    padding-bottom: 60px;
+}
+
+.book-about-photo .about-container .row .h-txt {
+    font-size: 13px;
+    line-height: 22px;
+}
+
+ .book-about-photo .about-container .input-text {
+    font-size: 13px;
+}
+
+.book-about-photo .about-container .submit-btn {
+    margin-top: 20px;
+    border-radius: 50px;
+    padding: 2px 17px;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+ .about-me .p-home {
+    font-size: 12px;
+}
+
+ .about-me .p-about {
+    font-size: 12px;
+}
+
+ .blog-container .blog-content {
+    margin-top: -50px;
+}
+
+.blog-container .blog-content .who-post-txt {
+    padding-bottom: 16px;
+    font-size: 7px;
+    line-height: 11px;
+}
+
+.blog-container .blog-content .entry-txt {
+    font-size: 7px;
+    line-height: 16px;
+}
+.blog-container .comment-blog {
+   width: 130%;
+   height: 72%;
+}
+
+.blog-container .more-btn-blog {
+    padding: 6px 11px;
+    font-size: 9px;
+    line-height: 12px;
+}
+.blog-container .blog-content .head-txt {
+    padding-top: 35px;
+    padding-bottom: 5px;
+    font-size: 9px;
+    line-height: 16px;
+}
+ .blog-container .more-comment-blog {
+
+    padding-bottom: 34px;
+}
+
+.blog-container .cont-marg {
+    padding-bottom: 90px;
+}
+
+.copyright-container .blog-footer-txt {
+    margin: 0;
+    padding-top: 29px;
+    font-size: 7px;
+    line-height: 2px;
+}
+ .portfolio-slider .carousel-control-next-icon, .portfolio-slider .carousel-control-prev-icon {
+    width: 40px;
+    height: 40px;
+}
+.portfolio-gallery .container #content .port-gall-txt {
+    font-size: 9px;
+    padding: 45px 0 45px 0;
+    line-height: 14px;
+}
+
+.portfolio-gallery .container #content .port-row-two {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.contact-me-col .contact-contact-txt {
+   font-size: 13px;
+}
+
+.contact-me-col {
+    padding-top: 0px;
+
+}
+
+.contact-me-col .contact-phone {
+    font-size: 6px;
+}
+.contact-me-col .contact-email {
+    font-size: 6px;
+}
+
+.contact-me-col .contact-txt {
+    font-size: 6px;
+    line-height: 12px;
+}
+.contact-form-cont .input-text {
+    padding-left: 4px;
+}
+
+.contact-form-cont .form-field {
+    padding: 0 0 3px 0;
+}
+
+.contact-form-cont .input-text {
+    height: 23px;
+
+    font-size: 6px;
+    line-height: 20px;
+}
+
+.contact-form-cont .comment {
+    padding: 12px 0 0 7px;
+    width: 97%;
+    height: 52px;
+    font-size: 11px;
+    line-height: 0;
+}
+.contact-form-cont .submit-btn {
+  margin-top: 20px;
+margin-bottom: 25px;
+    padding: 0px 3px;
+    font-size: 7px;
+    line-height: 16px;
+}
+
+
+
+}
+}
